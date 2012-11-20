@@ -28,3 +28,6 @@ class SVG
         paper = new Raphael(0, 0, width or 42, height or 42)
         callback? paper
         doc.body.firstChild?.outerHTML or ""
+
+module.exports = new SVG()
+module.exports.SVG = SVG
