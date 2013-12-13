@@ -21,7 +21,7 @@
         "prepublish": "cake build"
     },
     "dependencies": {
-        "jsdom": ">= 0.0.1"
+        "jsdom": "0.2.19"
     },
     "devDependencies": {
         "coffee-script": ">= 1.2.0",
