@@ -20,6 +20,7 @@
     "scripts": {
         "prepublish": "cake build"
     },
+    "bundledDependencies": ["jsdom"],
     "dependencies": {
         "jsdom": "0.2.19"
     },
